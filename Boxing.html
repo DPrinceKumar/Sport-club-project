@@ -1,0 +1,139 @@
+<html>
+<head>
+    <title> Boxing Club</title>
+    <link rel="stylesheet" href="Css/Sports-page.css" type="text/css">
+    <script src="https://kit.fontawesome.com/a2e111ef51.js" crossorigin="anonymous"></script>
+    
+
+    <script>
+        function validateForm() {
+            alert("called");
+          var x = document.getElementById("email").value;
+          if (x == "" || !x.includes("@")) {
+            alert("Name must be filled out");
+            document.getElementById("erroremail").innerHTML = "Email is invalid";
+            return false;
+          }
+          else{
+            document.getElementById("erroremail").innerHTML = "";
+          }
+          var y = document.getElementById("name").value;
+          if (y == "") {
+            document.getElementById("errorname").innerHTML = "Name should not be blank";
+            return false;
+          }
+          else{
+            document.getElementById("errorname").innerHTML = "";
+          }
+        }
+        </script>
+</head>
+<body>
+<div class="header">
+        <div class="menu">
+          <ul>
+            <a href="index.html"><li class="active"><i class="fas fa-home"></i>&nbsp; &nbsp;Home</li></a>
+       <a href="Image-gallery.html"><li><i class="fas fa-images"></i>&nbsp;&nbsp; Galery</li></a>
+       <a href="Boxing-Team.html"><li><i class="fas fa-users"></i>&nbsp;&nbsp;Team</li></a>
+       <a href="About.html"><li><i class="fas fa-user-alt"></i>&nbsp;&nbsp;About us</li></a>
+            <li><a href="#" class="login"><span>Login</span></a></li>
+        </ul>   
+        </div>
+</div>
+<div class="icon-bar">
+  <a class="active-1" href="index.html"><i class="fa fa-home"></i></a> 
+  <a href="login.html"><i class="fa fa-sign-in-alt"></i></a> 
+  <a href="About.html"><i class="fas fa-user-alt"></i></a> 
+  <a href="Image-gallery.html"><i class="fa fa-images"></i></a>
+</div>
+<div class="main">
+   <img src="Image/1.jpg" alt="Rubgby header">
+   <div class="patternbreaker">
+     <img src="Image/ru.jpg">
+         <h1><img src="Image/icon.png" alt="icon" id="Boxing"></i>Boxing</h1>
+ </div>
+ <div class="content">
+   <hr id="hor-line">
+   <p>The LPU Amateur Boxing Club (UWABC) is one of the youngest clubs at Warwick, having only been founded in 2015. However, although we are still a young club, we've come a long way in the last year and are continuing to grow.
+   </p>
+   <hr id="hor-line">
+ </div>
+ <div class="con">
+ <div class="events">
+     <p id="events-info-1">Upcomming Events</p>
+     <hr>
+   <p id="events-info-2"> No Upcomming Events</p>
+ </div>
+<p id="event-done-till-now"><u><span>E</span>vents <span>D</span>one <span>T</span>ill <span>N</span>ow</u> </p>
+ <div class="event-done">
+  <div class="event-1">
+  <img src="Image/boxing1.jpg" alt="Satnam bhamara" height="200px" width="200px">
+      <p>Occasion was 3rd Elite Women's National Boxing Championships held in Vijayanagara (Karnataka).</p>
+      <a href="https://www.lpu.in/FullNewsRelease/LPU-Boxer-won-National-Gold-Medal-May-represent-India-at-Olympics-2020.php"><input type="button" value="Learn More" class="learn-more-2"></a>
+  </div>
+  <div class="event-2">
+          <img src="Image/boxing2.jpg" alt="BSc 1st Year LPU student Manju Rani grabbed ‘Gold’ in her maiden attempt" height="200px" width="200px">
+              <p>BSc 1st Year LPU student Manju Rani grabbed ‘Gold’ in her maiden attempt</p>
+              <a href="https://www.lpu.in/FullNewsRelease/LPU-Boxer-won-National-Gold-Medal-May-represent-India-at-Olympics-2020.php"><input type="button" value="Learn More" class="learn-more-2"></a>
+          </div>
+  <div class="event-3">
+      <img src="Image/boxing3.jpg" alt="Boxing provides me strength to keep going ahead in life', shares Manju." height="200px" width="200px">
+          <p>Boxing provides me strength to keep going ahead in life", shares Manju.</p>
+          <a href="https://www.lpu.in/FullNewsRelease/LPU-Boxer-won-National-Gold-Medal-May-represent-India-at-Olympics-2020.php"><input type="button" value="Learn More" class="learn-more-2"></a>
+  </div>
+ </div>
+</div>
+</div>
+
+<div class="bottom-con">
+<div class="Join">
+    <h1>Provide Your details !</h1>
+  <div class="textbox">
+    <form>
+     <p> Email :<input class="textbox error" type="email"  id="erroremail" required ></p>
+     <p> Name:<input class="textbox error" type="text" required  id="errorname"></p>
+      <p><input class="button" type="submit" value="Submit" onclick="validateForm()"> </p>
+      <p><input class="button"  type="reset" value="Reset" onclick="validateForm()">   </p>
+    </form>
+  </div>
+  <div class="follow">
+    <span><img src="image/boxingLogo.png"></span>
+    <div class="social-media" style="padding-right:40px; margin-left: -160px;">
+      <img src="Image/instagram.png">
+        <img src="Image/facebook.png">
+        <img src="Image/twitter.png"><br>
+        <input class="button" type="button" value="Join us" id="reg" style="margin-left: 60px;">
+    </div>
+</div>
+<div class="clear"></div>
+</div>
+<div class="footer">
+    <div class="footer-content">
+   <p> <big>Sports club Community</big><br>
+        <br>Sports Club is a division of New
+        <br>Lpu Sports Association,Inc. a not-for-profit corporation.
+        <br>Sports Club Community has carving skills of many in our communitiess
+        <br>independent nonprofit Organisation.</p>
+        <br>
+        <br>
+        <br>
+        <p id="copy"><i class="far fa-copyright"></i>&nbsp;Sports Club</p>
+   </div>
+ <div class="Contact-us">
+    <p><big><i class="fas fa-map-marked-alt"></i> &nbsp; CONTACT US  </big><br><br>
+        Main Gate,<br>
+        Pahgwada<br>
+        1-877-486-9414<br>
+        Lpu University.<br><p>
+ </div>
+ <div class="Get-connected">
+    <p><big><i class="fas fa-link"></i>&nbsp; &nbsp;GET CONNECTED</big><br><br>
+        <i class="fab fa-facebook"></i>&nbsp; &nbsp;Facebook<br>
+        <i class="fab fa-twitter"></i>&nbsp; &nbsp;Twitter<br>
+        <i class="fab fa-youtube"></i>&nbsp; &nbsp;YouTube<br>
+        <i class="fab fa-instagram"></i>&nbsp; &nbsp;Instagram<br></p>
+ </div>
+ <hr>
+ </div>
+</body>
+</html>
