@@ -1,0 +1,355 @@
+* {
+    margin :0;
+    padding :0;
+    font-family : 'Avenir Next';
+}
+.header {
+width: 100%;
+height:2.2cm;
+background: #42455a;
+}
+.menu{
+    font-size: 20px;
+}
+.menu li{
+    float: left;
+    margin: 20px;
+    font-size: 17px;
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+.active {
+    color: #19dafa !important;
+}
+.login{
+ top:20px;
+ right:70px;
+ position: absolute;
+ text-decoration: none;
+ color: #fff;
+ border: 2px solid transparent;
+ height: 50px;
+ width: 100px;
+ border-radius: 100px;
+ background-image: linear-gradient(#42455a,#42455a) , radial-gradient(circle at top left,#fd00da,#19d7f8);
+ background-clip: content-box , border-box;
+ background-origin: border-box;
+}
+.login span {
+    display:block;
+    padding: 8px 22px;
+}
+.icon-bar {
+    height:fit-content;
+    top: 40%;
+    bottom: 50%;
+    position:sticky;
+    width: fit-content;
+    background-color: #555;
+    z-index: 1;
+    left: 0;
+    right: 0;
+  
+}
+
+.icon-bar a {
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  height: fit-content;
+  /* padding-bottom: 60px; */
+}
+.icon-bar i{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.active-1 {
+  background-color: #4bd589;
+}
+.main{
+margin-top: -6.48cm;
+    z-index: -1;
+    
+}
+.main img{
+    width: 100%;
+    height:60%;
+    object-fit: cover;
+}
+.banner-img {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+.patternbreaker  h1{
+  font-weight: normal;
+  margin: 2cm;
+  z-index: -1;
+  color: black;
+  margin-top: -100px;
+}
+.patternbreaker i{
+    color: black;
+    z-index: 1;
+}
+.patternbreaker img{
+    height:150px;
+    object-fit: cover;
+}
+#Boxing{
+    height: 60px;
+    width: 30px;
+}
+.con{
+    height: 15cm;
+    width: 100%;
+    background-color: #f0eed4;
+}
+.events{
+ margin-top: 60px;
+float: left;
+height: 12cm;
+width: 10cm;
+border: 2px solid black;
+margin-left: 30px;
+margin-right: 30px;
+background-color: white;
+box-shadow:10px 10px 8px 10px #888888;
+}
+.events hr{
+    opacity: 0.5;
+    width: 90%;
+    margin-left:10px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 2px solid gray;
+}
+#events-info-1{
+    color: black;
+    margin: 30px;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+#events-info-2{
+    font-size: 20px;
+    margin: 20px 20px -10px 30px;
+}
+#event-done-till-now{
+    margin-top: 40px;
+    font-size:28px;
+    margin-left:50% ;
+    color: black;
+}
+#event-done-till-now span{
+    color: red;
+}
+.event-done{
+    height: 12cm;
+    width:18cm;
+    float: left;
+    margin-left: 50px;
+    margin-top: 30px;
+    display: flex;
+}
+.event-1 img,.event-2 img,.event-3 img{
+    margin-top: -10px;
+    border-radius: 20%;
+    margin-bottom: 20px;
+    width: 220px;
+    box-shadow: 0px 0px 100px 7px #888888;
+    object-fit: cover;
+}
+.event-1,.event-2,.event-3{
+padding-left: 50px;
+font-weight: normal;
+margin-right: 50px;
+
+
+}
+.event-1 p, .event-2 p,.event-3 p{
+    margin-top: auto;
+    font-size: 15px;
+}
+.learn-more-2{
+    height: 1.4cm;
+    width: 4cm;
+    font-size:18px;
+    color: white;
+    margin-top: 10px;
+    padding-left: -20px;
+    background-color: orange;
+    text-transform: uppercase;
+    border: 2px solid transparent;
+    position: relative;
+    box-shadow: 0px 0px 10px 5px #888888;
+
+}
+.right-2 {
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    display: inline-block;
+    padding: 5px;
+    /* margin-left:-18px; */
+    transform: rotate(-45deg);
+}
+.content{
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: white;
+}
+#hor-line{
+    opacity: 0.5;
+    width: 70%;
+    margin-left: 4cm;
+    border-radius: 100px;
+    border: 2px solid teal;
+}
+.content p {
+    padding-left: 30px;
+    padding-right: 40px;
+    text-align: center;
+    font-size: 1.4em;
+    margin: 30px;
+}
+.button {
+    width: 50%;
+    height: 10%;
+    float: left;
+    border: 2px solid transparent;
+    border-radius: 20px;
+}
+
+.button:hover{
+    background-color: #4bd589;
+}
+
+.textbox{
+    width: 40%;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.textbox p{
+ margin-left: 50px;
+}
+.textbox input{
+    margin-left: 30px;
+}
+.button {
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+    border: 2px solid transparent;
+    border-radius: 20px;
+    margin-left:25%;
+    background-color: #42455a;
+}
+
+.button:hover{
+    background-color: #4bd589;
+}
+.join{
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.join h1{
+    margin-left: 30px;
+    font-weight: bolder;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.follow img{
+    margin-top: -150px;
+    margin-left: -220px;
+}
+#reg{
+    margin-left: 30px;
+    margin-top: 15px;
+}
+.follow{
+    float: right;
+    height: 55%;
+    width: 25%;
+    margin-top: -130px;
+}
+.follow span{
+    margin-top: 20px;
+    text-align: center;
+    display: block;
+    margin-left: -180px;
+}
+.follow img {
+    height: 50%;
+    border: 2px solid transparent;
+    border-radius: 25%;
+}
+.social-media{
+    margin-left: -200px;
+    margin-top: 10px;
+    
+}
+.social-media img{
+    height:10%;
+    padding: 10px;
+    margin-left: 20px;
+}
+.social-media img:hover{
+    background-color: #4bd589;
+}
+.clear {
+    overflow: auto;
+    clear: both;
+}
+.footer{
+  height: 10cm;
+  width: auto;
+  padding-left: 200px;
+  color:rgb(255, 255, 255);
+  line-height: 20px;
+  font-size: 12px;
+  background-color: #1E1E1E;
+  position: relative  ;
+}
+.footer-content{
+  font-size: 12px;
+  height: 100px;
+  width: 12cm;
+  margin-top: 80px;
+  float: left;
+} 
+#copy{
+    margin-top: -20px;
+}
+.Get-connected{
+height: 5cm;
+width: 5cm;
+float: right;
+margin-top: 80px;
+margin-right: 10%;
+}
+.Contact-us{
+float: right;
+height: 100px;
+width: 5cm;
+margin-right: 15%;
+margin-top: 80px;
+}
+.footer hr{
+  margin-top: 400px;
+  width:80%;
+  border-top: 0.7pt solid white;
+  opacity: 0.4;
+}

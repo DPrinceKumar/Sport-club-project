@@ -1,0 +1,152 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Avenir Next';
+  
+}
+body{
+  background: #42455a;
+}
+.header{
+background:#42455a;
+}
+.head{
+  height: 1cm;
+  width: auto;
+}
+.head li{
+  float: left;
+  list-style: none;
+  margin: 20px;
+  text-decoration: none;
+  color: #b2b1b1;
+  font-size: 17px;
+}
+.head i{
+  color: white;
+}
+.login {
+  top:40px;
+  right:80px;
+  position: absolute;
+  text-decoration: none;
+  color: #fff;
+  border: 2px solid transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(#42455a,#42455a) , radial-gradient(circle at top left,#fd00da,#19d7f8);
+  background-clip: content-box , border-box;
+  background-origin: border-box;
+}
+.login span {
+  display:block;
+  padding: 8px 22px;
+}
+.main{
+  margin-top: -8cm;
+}
+.icon-bar {
+  height:fit-content;
+  top: 40%;
+  bottom: 50%;
+  position:sticky;
+  width: fit-content;
+  background-color: #555;
+  
+}
+
+.icon-bar a {
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  height: fit-content;
+padding-left: 10px;
+}
+.icon-bar i{
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.active-1 {
+  background-color: #4bd589;
+}
+.gallery
+{
+margin:3% 3% 3% 3%;
+  display: grid;
+}
+
+.gallery img
+{
+transition:1s;
+padding:2%;
+width:28%;
+height:30%;
+}
+
+.gallery img:hover
+{
+filter:grayscale(100%);
+transform:scale(1.1);
+}
+
+h1{
+font-weight: normal;
+color: white;
+border: 2px solid white;
+text-align: center;
+margin-bottom: 20px;
+margin-top: 20px;
+}
+.backetball img{
+  margin-top: 200px;
+}
+
+.footer{
+  height: 15cm;
+  width: auto;
+  padding-left: 200px;
+  margin-top: 40px;
+  color:rgb(255, 255, 255);
+  line-height: 20px;
+  padding-top: 20px;
+  font-size: 12px;
+  background-color: #1E1E1E;
+}
+.footer-content{
+  font-size: 12px;
+  height: 100px;
+  width: 12cm;
+  margin-top: 100px;
+  float: left;
+} 
+.Get-connected{
+height: 5cm;
+width: 5cm;
+float: right;
+margin-top: 100px;
+margin-right: 10%;
+}
+.Contact-us{
+float: right;
+height: 100px;
+width: 5cm;
+margin-right: 15%;
+margin-top: 100px;
+}
+.footer hr{
+  margin-top: 300px;
+  width:80%;
+  border-top: 0.7pt solid white;
+ opacity: 0.4;
+}
+

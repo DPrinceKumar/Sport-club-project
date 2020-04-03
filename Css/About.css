@@ -1,0 +1,194 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Avenir Next";
+}
+.header-con li  {
+  text-shadow: none;
+  opacity: 0.4;
+  font-size: 17px;
+  list-style: none;
+  text-decoration: aqua;
+  margin-right: 40px;
+}
+.header-con{
+ background-color:#42455a;
+ height:70px;
+ width:auto;
+ color:#fff;
+}
+.header-con li:hover{
+  opacity: 1;
+}
+.header-logo{
+ font-size:36px;
+ padding-top: 10px;
+ padding-left: 30px;
+ float:left;
+}
+.header-logo>img{
+  height: 50px;
+}
+.header-con li{
+   float: right;
+   color:black;
+   padding:30px 12px;
+   color:#fff;
+}
+#home{
+  float: left;
+}
+#active{
+  opacity: 1;
+  }
+.teams-details{
+text-align: center;
+background: #34495e;
+padding: 60px;
+margin-top: 0px;
+margin-bottom: 20px;
+
+}
+.teams-details h1{
+text-transform: uppercase;
+margin-bottom: 60px;
+color: white;
+font-size: 40px;
+}
+.border{
+display: block;
+margin-top:-40px;
+margin-left: auto;
+margin-right: auto;
+width: 260px;
+height: 3px;
+background: #3498db;
+margin-bottom: 40px;
+}
+.person img{
+    border-radius: 20px;
+    height:8cm;
+    float: left;
+  
+}
+.person span{
+    color:white;
+}
+.person a{
+  text-decoration: none;
+  background-color: coral;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.5;
+  border-radius: 4px;
+}
+#linkedin {
+  background-color:#2867B2;
+}
+#facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+#instagram {
+  background-color: #fb3958;
+}
+#email{
+    background-color: #D44638;
+
+}
+.person a:hover{
+    opacity: 1;
+}
+.paragraph p{
+    text-align:left;
+    margin-left:300px ;
+    padding-top: 20px;
+}
+.name{
+display: block;
+margin-bottom: 30px;
+text-align:center;
+text-transform: uppercase;
+font-size:40px;
+}
+.icon-bar {
+  height:fit-content;
+  width: fit-content;
+  background-color: #555;
+  position:sticky;
+  top: -20%;
+  bottom: 10%;
+  
+}
+
+.icon-bar a {
+  display: block;
+  padding-left: 5px;
+  padding-right: 5px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 36px;
+  padding-bottom: 20px;
+}
+
+.icon-bar a:hover {
+  background-color: #000;
+  height: fit-content;
+  padding-bottom: 30px;
+}
+.icon-bar i{
+    font-size: 20px;
+    text-align: left;
+}
+
+.active-1 {
+  background-color: #4bd589;
+}
+
+.footer{
+  z-index: -1;
+  position: sticky;
+  height: 10cm;
+  width: auto;
+  margin-top: -9cm;
+  padding-left: 200px;
+  color:rgb(255, 255, 255);
+  line-height: 20px;
+  font-size: 12px;
+  background-color: #1E1E1E;
+}
+.footer-content{
+  font-size: 12px;
+  height: 100px;
+  width: 12cm;
+  margin-top: 100px;
+  float: left;
+} 
+.Get-connected{
+height: 5cm;
+width: 5cm;
+float: right;
+margin-top: 100px;
+margin-right: 10%;
+}
+.Contact-us{
+float: right;
+height: 100px;
+width: 5cm;
+margin-right: 15%;
+margin-top: 100px;
+}
+.footer ul{
+  list-style: none;
+  text-decoration: none;
+}
+.footer hr{
+  margin-top: 400px;
+  width:80%;
+  border-top: 0.7pt solid white;
+  opacity: 0.4;
+}
