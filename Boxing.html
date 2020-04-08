@@ -3,30 +3,8 @@
     <title> Boxing Club</title>
     <link rel="stylesheet" href="Css/Sports-page.css" type="text/css">
     <script src="https://kit.fontawesome.com/a2e111ef51.js" crossorigin="anonymous"></script>
-    
+    <script type="text/javascript" src="JS/Validate-form.js"></script>
 
-    <script>
-        function validateForm() {
-            alert("called");
-          var x = document.getElementById("email").value;
-          if (x == "" || !x.includes("@")) {
-            alert("Name must be filled out");
-            document.getElementById("erroremail").innerHTML = "Email is invalid";
-            return false;
-          }
-          else{
-            document.getElementById("erroremail").innerHTML = "";
-          }
-          var y = document.getElementById("name").value;
-          if (y == "") {
-            document.getElementById("errorname").innerHTML = "Name should not be blank";
-            return false;
-          }
-          else{
-            document.getElementById("errorname").innerHTML = "";
-          }
-        }
-        </script>
 </head>
 <body>
 <div class="header">
@@ -89,11 +67,11 @@
 <div class="Join">
     <h1>Provide Your details !</h1>
   <div class="textbox">
-    <form>
-     <p> Email :<input class="textbox error" type="email"  id="erroremail" required ></p>
-     <p> Name:<input class="textbox error" type="text" required  id="errorname"></p>
-      <p><input class="button" type="submit" value="Submit" onclick="validateForm()"> </p>
-      <p><input class="button"  type="reset" value="Reset" onclick="validateForm()">   </p>
+    <form name="detail" onsubmit="return validateform()">
+     <p> Email :<input class="textbox error" type="text"  name="email" ></p>
+     <p> Name:<input class="textbox error" type="text"  name="name"></p>
+      <p><input class="button" type="submit" value="Submit" > </p>
+      <p><input class="button"  type="reset" value="Reset">   </p>
     </form>
   </div>
   <div class="follow">
