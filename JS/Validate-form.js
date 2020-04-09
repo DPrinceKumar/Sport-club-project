@@ -1,10 +1,10 @@
 function validateform() {
 
     var emailID = document.detail.email.value;
-    atpos = emailID.indexOf("@");
-    dotpos = emailID.lastIndexOf(".");
+    x = emailID.indexOf("@");
+    y = emailID.lastIndexOf(".");
     
-    if (atpos < 1 || ( dotpos - atpos < 2 )) {
+    if (x < 1 || ( y - x < 2 )) {
        alert("Email id must contain '@' and Domain name ")
        document.detail.email.focus() ;
        return false;

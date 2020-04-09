@@ -6,6 +6,7 @@
         </title>
         <link rel="stylesheet" href="Css/Login_page.css">
         <script src="https://kit.fontawesome.com/a2e111ef51.js" crossorigin="anonymous"></script>
+        <script src="JS/formval.JS" type="text/javascript"></script>
     </head>
 <body>
   <div class="header">
@@ -21,29 +22,28 @@
       </ul>
   </div>
   </div>
+  <form name="login" onsubmit="return validatelogin()">
 <div class="login-box">
   <div class="form">
     <ul>
      <li class="active mouse">Log In</li></a>
       <li><div class="var-line"></div></li>
-      <a href="Register-form.html"><li> Register</li></a>
+      <a href="#"><li> Register</li></a>
     </ul>
   </div>
-  <form>
   <div class="hor-line"></div>
     <div class="textbox">
       <i class="fas fa-user"></i>
-
-      <input type="text" placeholder="Username" />
+      <input type="text" placeholder="Username" name="Uname" />
     </div>
 
     <div class="textbox">
       <i class="fas fa-lock"></i>
-      <input type="password" placeholder="Password" />
+      <input type="password" placeholder="Password"  name="passwd"/>
     </div>
 
-<input type="submit" class="btn" value="Sign in" />
-<input type="reset" class="btn" value="Reset " />
+      <input type="submit" class="btn" value="Sign in" />
+      <input type="reset" class="btn" value="Reset " />
 </div>
 </form>
 <div class="footer">
