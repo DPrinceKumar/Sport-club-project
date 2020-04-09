@@ -23,24 +23,6 @@ background: #42455a;
 .active {
     color: #19dafa !important;
 }
-.login{
- top:20px;
- right:70px;
- position: absolute;
- text-decoration: none;
- color: #fff;
- border: 2px solid transparent;
- height: 50px;
- width: 100px;
- border-radius: 100px;
- background-image: linear-gradient(#42455a,#42455a) , radial-gradient(circle at top left,#fd00da,#19d7f8);
- background-clip: content-box , border-box;
- background-origin: border-box;
-}
-.login span {
-    display:block;
-    padding: 8px 22px;
-}
 .icon-bar {
     height:fit-content;
     top: 40%;
